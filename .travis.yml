@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - '12'
+
+script:
+  - yarn test
+  - yarn build
+  
+deploy:
+  provider: heroku
+  app: caj-portfolo-site
+  api_key:
+    secure: tISoRnPj+22KGEVpWsD9ogSVg95m8OdEHhLRUdYxxl9+nV1bZUFiwOEsTL6WfR6UvAYbseakaeIb/30CsLdk/N4VX4wjz2MWGc0a/BKBNOtNXKWFq7Wu0OjPEIBDgpoZbXbn0i6u8HFpmhGGkEjApvY3ksmaQ3wbBIOQ2+bEbEt56WqJ1t6josrXMLpmx/Gx9riiRGsK5LZUcM0nAkI49ew0eTCKPklgHryDLlUlugy3//4CpuSQ2x4gTidsuFmOb+xrdyiahkm5aIlB6WZj1Y280K3qcF20lrBj6HzFumQZJpLCyHDdApYYxr+ZV/IdX4nIHdG00I5jbf+4Q3DNqyT+jc0UVplp1W5hN0LT/xUXsxASFZou2awfz5/Shsb/zTEYvxYxmfFI603hLjO9UCStH/kzy1+ehRhbuqoJaxn1anki2zsdCBOpNAyswbsWJzxc/tb0oA+PYyRnSY8oyE5XtCtuDdOMu8TEUNHeO0zvLuz0s4Up7uvEfjPKHtiFbgosx4IlxxzOP6+G9cDTKGMnoMYs8v5YKBl4q4KVdHH1ZepRIUkaaRxZQne1YROuNZZa+3+Wqj4pCCAgl+dTJpSiA/r7YfZ76DIR6cJ+fxMV22gpzei9n59MpvezYbGr3X803J4d9TI7f9/t/Wqsn33v1jouNoEKycnhtPa6i/0=
