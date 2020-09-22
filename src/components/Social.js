@@ -1,29 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
+import { SocialIcon } from 'react-social-icons';
 class Social extends Component {
     render() {
         return (
             <div className="social">
-                <a href="https://codepen.io/fireside68" target="_blank">
-                    {" "}
-                    <i className="fab fa-codepen"> </i>
-                </a>
-                <a href="https://github.com/fireside68" target="_blank">
-                    {" "}
-                    <i className="fab fa-github"> </i>
-                </a>
-                <a href="https://Instagram.com/fireside68" target="_blank">
-                    {" "}
-                    <i className="fab fa-instagram"> </i>
-                </a>
-                <a href="https://www.facebook.com" target="_blank">
-                    {" "}
-                    <i className="fab fa-facebook-f"> </i>
-                </a>
-                <a href="https://www.linkedin.com" target="_blank">
-                    {" "}
-                    <i className="fab fa-linkedin-in"> </i>
-                </a>
+                <SocialIcon url="https://codepen.io/fireside68" target="_blank" rel="noopener noreferrer" />
+                <SocialIcon url="https://github.com/fireside68" target="_blank" rel="noopener noreferrer" />
+                <SocialIcon url="https://Instagram.com/fireside68" target="_blank" rel="noopener noreferrer" />
+                <SocialIcon url="https://www.facebook.com/cedric.johnson.391082" target="_blank" rel="noopener noreferrer" />
+                <SocialIcon url="https://www.linkedin.com/in/cedric-johnson-88464380/" target="_blank" rel="noopener noreferrer" />
             </div>
         );
     }

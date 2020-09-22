@@ -49,6 +49,9 @@ nav ul {
   color: white !important;
 }
 
+nav ul a {
+  text-decoration: none;
+}
 nav ul li {
   margin: 40px;
 }
@@ -60,7 +63,7 @@ nav ul li {
 }
 
 .social {
-  position: absolute;
+  position: relative;
   margin-top: 20px;
   display: flex;
   bottom: 60px;

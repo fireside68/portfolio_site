@@ -7,14 +7,17 @@ class Home extends Component {
   render() {
     return (
       <div className="condiv home">
+        <div>
+          <ReactTypingEffect
+            className="typingeffect"
+            text={["I am Cedric Johnson", "I am a web developer"]}
+            speed={100}
+            eraseDelay={700}
+          />
+        </div>
+        
         <img src={profilepic} alt="" className="profilepic"></img>
         <br/>
-        <ReactTypingEffect
-          className="typingeffect"
-          text={["I am Cedric Johnson", "I am a web developer"]}
-          speed={100}
-          eraseDelay={700}
-        />
         <Social />
       </div>
     );
