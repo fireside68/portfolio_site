@@ -62,12 +62,20 @@ nav ul li {
   font-weight: bolder;
 }
 
-.social {
+.social-home {
   position: relative;
   margin-top: 20px;
   display: flex;
   bottom: 60px;
 }
+
+.social-contact {
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+}
+
 
 .social i {
   padding-right: 30px;
