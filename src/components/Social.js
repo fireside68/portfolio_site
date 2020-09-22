@@ -6,23 +6,23 @@ class Social extends Component {
             <div className="social">
                 <a href="https://codepen.io/fireside68" target="_blank">
                     {" "}
-                    <i class="fab fa-codepen"> </i>
+                    <i className="fab fa-codepen"> </i>
                 </a>
                 <a href="https://github.com/fireside68" target="_blank">
                     {" "}
-                    <i class="fab fa-github"> </i>
+                    <i className="fab fa-github"> </i>
                 </a>
                 <a href="https://Instagram.com/fireside68" target="_blank">
                     {" "}
-                    <i class="fab fa-instagram"> </i>
+                    <i className="fab fa-instagram"> </i>
                 </a>
                 <a href="https://www.facebook.com" target="_blank">
                     {" "}
-                    <i class="fab fa-facebook-f"> </i>
+                    <i className="fab fa-facebook-f"> </i>
                 </a>
                 <a href="https://www.linkedin.com" target="_blank">
                     {" "}
-                    <i class="fab fa-linkedin-in"> </i>
+                    <i className="fab fa-linkedin-in"> </i>
                 </a>
             </div>
         );
