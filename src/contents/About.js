@@ -5,16 +5,16 @@ class About extends Component {
             <div className="condiv">
                 <h1 className="subtopic">About Me</h1>
                 <h4>Hey there,</h4>
-                <h1>I'm Abdul Wahid Naafi</h1>
+                <h1>I'm Cedric Johnson</h1>
                 <h3>Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
                 <br></br>
-                <p>I started my journey in the world of computers from an young age,
-                now I’m 20 years old, Pursuing my Software Engineering Degree in
-                VIT University Vellore.  Web development is my center of interest, i always
-                love the idea of cross-platform development, 1-n one code base deploy into almost
-                any platform, which web technology like Javascript enables me to do. I also like
-                creating Interactive UI components for better UX  and share those desgin and codes
-                to the world through Github, Codepen and Instagram.
+                <p>The world of programming found me at an early age. In elementary school,
+                I began to learn BASIC. Once I got to high school, I was introduced to Linux'
+                and HTML. From there, I began to learn more HTML. After taking a bit of a step
+                away from coding to embark upon other adventures, I made my desire to code full
+                time official by beginning school, at Delgado Community College in New Orleans,
+                LA; then finishing my bachelor's at Tulane University. Since then, I have worked
+                in the field for over three years.                
                 </p>
             </div>
         )
