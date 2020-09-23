@@ -8,7 +8,7 @@ script:
   
 deploy:
   provider: heroku
-  app: caj-portfolo-site
+  app: caj-portfolio-site
   on:
     repo: fireside68/portfolio_site
   api_key:
