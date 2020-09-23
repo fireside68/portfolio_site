@@ -6,8 +6,9 @@ class NavItem extends Component {
         return (
             <Link id={this.props.item} 
                 to={this.props.tolink} 
-                onClick={
+                onClick={ () => {
                     this.props.activec.bind(this, this.props.item)
+                    }
                 }>
                 <li>{this.props.item}</li>
             </Link>
